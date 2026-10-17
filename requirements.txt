@@ -1,4 +1,4 @@
 requests
 fastapi
 uvicorn[standard]
-beautifulsoup
+beautifulsoup4
