@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-const API_URL = "https://target-ai-ad-agent-latest.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || "https://target-ai-ad-agent-latest.onrender.com";
 
 export default function App() {
   const [url, setUrl] = useState("https://healthsportvoyageai.com");
